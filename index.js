@@ -247,7 +247,7 @@ app.get('/error', (req, res) => {
 });
 
 
-var optionsSERV = {
+/*var optionsSERV = {
   key: fs.readFileSync('./democoheris.queriadis.com-key.pem'),
   cert: fs.readFileSync('./democoheris.queriadis.com-crt.pem')
 };
@@ -255,5 +255,5 @@ var optionsSERV = {
 const server = https.createServer(optionsSERV,app)
   .listen(port, () => {
       console.log('server running at ' + port)
-  })
-//opn(`https://app.hubspot.com/oauth/authorize?client_id=e240872f-90bb-44a2-888a-7fd55255e0fd&redirect_uri=https://hubspot2boond.queriadis.com/oauth-callback&scope=contacts%20oauth`);
+  })*/
+opn(`https://app.hubspot.com/oauth/authorize?client_id=e240872f-90bb-44a2-888a-7fd55255e0fd&redirect_uri=https://hubspot2boond.queriadis.com/oauth-callback&scope=contacts%20oauth`);
